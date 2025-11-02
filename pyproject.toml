@@ -1,7 +1,16 @@
 [project]
-name = "car-auctions"
+name = "carsnbids-scraper-v3"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "boto3>=1.38.30",
+    "fake-useragent>=2.2.0",
+    "pandas>=2.3.3",
+    "pyarrow>=22.0.0",
+    "requests>=2.32.3",
+    "selenium>=4.33.0",
+    "webdriver-manager>=4.0.2",
+]
